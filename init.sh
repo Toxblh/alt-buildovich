@@ -14,5 +14,5 @@ service hasher-privd start
 su buildovich -c "git clone $REPOSITORY && \
     cd /home/buildovich/mkimage-profiles && \
     make APTCONF=/home/buildovich/apt-confs/apt.conf.sisyphus \
-        DISTRO_VERSION=$DISTRO_VERSION \
+        ${DISTRO_VERSION:+DISTRO_VERSION=$DISTRO_VERSION} \
         $DISTR.iso"

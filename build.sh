@@ -15,12 +15,6 @@ if [[ $1 == *"ximper"* ]]; then
     fi
 else
     DISTR=$1
-fi 
-
-if [[ -n "$2" ]]; then
-    DISTRO_VERSION="$2"
-else
-    DISTRO_VERSION=0.9
 fi
 
 sudo podman run --privileged \

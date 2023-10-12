@@ -30,7 +30,7 @@ cd ./apt-mirror
 # XimperLinuxRepository
 wget -m -nH --cut-dirs=3 ftp://download.etersoft.ru/pub/download/ximper/XimperLinuxRepository
 
-# ALTLinux/Sisyphus
+# ALTLinux/Sisyphus TODO: Доработать
 rsync --timeout=6000 -avlpztc \
     --exclude 'SRPMS' \
     --exclude 'SRPMS.all' \
