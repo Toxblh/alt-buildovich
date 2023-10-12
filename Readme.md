@@ -16,8 +16,8 @@
 - второй [опционально] - версия итогового дистрибутива (ToDo: забрать с тегов?) [0.9.1]
 
 Сборка примеры
-`./build.sh grub.iso`
-`./build.sh regular-gnome.iso`
+`./build.sh grub`
+`./build.sh regular-gnome`
 `./build.sh ximper 0.9.1` 
 
 ### Файлы проекта
