@@ -6,6 +6,7 @@ mkdir -p ./out
 sudo podman build . -t builder
 
 REPOSITORY=https://gitlab.eterfund.ru/ximper/mkimage-profiles.git
+#REPOSITORY=https://github.com/altlinux/mkimage-profiles.git
 
 if [[ $1 == *"ximper"* ]]; then
     if [[ $1 == *"nvidia"* ]]; then
