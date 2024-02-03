@@ -16,9 +16,14 @@ EOF
 
 # Запись содержимого в sources.list.sisyphus
 cat > ./apt-confs/sources.list.sisyphus << EOF
-rpm [alt] http://ftp.altlinux.org/pub/distributions/ALTLinux/ Sisyphus/x86_64 classic
+rpm [alt] http://ftp.altlinux.org/pub/distributions/ALTLinux/ Sisyphus/aarch64 classic
+rpm [alt] http://ftp.altlinux.org/pub/distributions/ALTLinux/ Sisyphus/armh classic
+rpm [alt] http://ftp.altlinux.org/pub/distributions/ALTLinux/ Sisyphus/i586 classic
 rpm [alt] http://ftp.altlinux.org/pub/distributions/ALTLinux/ Sisyphus/noarch classic
+rpm [alt] http://ftp.altlinux.org/pub/distributions/ALTLinux/ Sisyphus/ppc64le classic
+rpm [alt] http://ftp.altlinux.org/pub/distributions/ALTLinux/ Sisyphus/x86_64 classic
 rpm [alt] http://ftp.altlinux.org/pub/distributions/ALTLinux/ Sisyphus/x86_64-i586 classic
+
 rpm http://download.etersoft.ru/pub/download/ximper/ XimperLinuxRepository/x86_64 addon
 rpm http://download.etersoft.ru/pub/download/ximper/ XimperLinuxRepository/noarch addon
 EOF
